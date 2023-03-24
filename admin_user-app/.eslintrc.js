@@ -33,6 +33,7 @@ module.exports = {
     'space-before-function-paren': 'off',
     'react/jsx-indent': [2, 2],
     'jsx-quotes': [2, 'prefer-single'],
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'no-unused-vars': 'off'
   }
 }
