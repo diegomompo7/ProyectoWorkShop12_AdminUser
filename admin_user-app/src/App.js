@@ -7,6 +7,7 @@ import Spanish from './lang/es.json';
 import English from './lang/en.json';
 import Home from './components/Home/Home';
 import Users from './components/Users/Users';
+import CreateUser from './components/CreateUser/CreateUser';
 
 const locale = navigator.language;
 let defaultMessages = Spanish;
@@ -38,6 +39,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/users' element={<Users></Users>}></Route>
+          <Route path='/create-user' element={<CreateUser></CreateUser>}></Route>
         </Routes>
       </HashRouter>
     </IntlProvider>
